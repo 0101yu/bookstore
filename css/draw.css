@@ -1,0 +1,66 @@
+body {
+    background-image: url(../image/繪本背景.jpg);
+    background-size: cover;
+}
+
+.menu {
+   background-color: #FFFFFF;
+   width: auto 0;
+   padding: 10px 30px;
+}
+
+.title {
+   color: #293E50;
+   font-size: 50px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   text-decoration: none;
+}
+
+a {
+   color: #534a4af3;
+   font-size: 30px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   display:inline;
+   margin-right: 1.7%;
+   font-weight: bold;
+}
+
+li {
+    list-style-type: none;
+    width: 400px;
+    margin-top: 190px;
+    margin-left: 20px;
+}
+
+
+.picture:hover {
+    transform: scale(1.5);
+}
+
+.boss {
+    display: flex;
+    justify-content: center;
+}
+
+.worldbox {
+    width: 600px
+}
+
+.worldbox2 {
+    width: 600px
+}
+
+.word {
+    font-size: 27px;
+    line-height: 35px;
+    margin-left: 3px;
+    width: 680px;
+    margin-top: 160px;
+    font-weight: bold;
+    color: white;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>推薦好書給我吧！！</title>
+    <style>
+        @import url("../css/contact.css");
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <a href="../index.html" class="title"> BOOKSTORE </a>
+
+        <a href="world.html" style="text-decoration:none;">世界名著</a>
+        <a href="heart.html" style="text-decoration:none">心靈雞湯</a>
+        <a href="forign.html" style="text-decoration:none">外國小說</a>
+        <a href="taiwan.html" style="text-decoration:none">台灣小說</a>
+        <a href="japan.html" style="text-decoration:none">日本小說</a>
+        <a href="china.html" style="text-decoration:none">中國經典</a>
+        <a href="love.html" style="text-decoration:none">言情小說</a>
+        <a href="draw.html" style="text-decoration:none">童書繪本</a>
+        <a href="contact.html" style="text-decoration:none">推薦好書給我吧！！</a>
+    </div>
+
+    <form method="post" action="mailto:? subject=好書推薦" enctype="text/plain">
+        <div class="sheet">
+            <table border="0">
+                <tr>
+                    <th class="title2" colspan="2">好書推薦</th>
+                </tr>
+                 <tr>
+                    <td class="item">書名： </td>
+                    <td colspan="2"><input type="text" name="user name" style="width: 300px; height: 30px;" /></td>
+                </tr>
+                <tr>
+                    <td class="item">作者： </td>
+                    <td><input type="tel" name="phone" style="width: 300px; height: 30px;"  maxlength="10" /></td>
+                </tr>
+                <tr>
+                    <td class="item">類型： </td>
+                    <td><input type="email" style="width: 300px; height: 30px;" /></td>
+                </tr>
+                <tr>
+                    <td class="item">推薦原因： </td>
+                    <td><textarea name="problem" style="width: 300px; height: 100px; position: relative; top: 18.5px;" wrap="hard" ></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="height: 20px;"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><div class="a"><input class="dot" type="submit" value="送出"><input class="dot" type="reset" value="取消"></div></td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+</html>
